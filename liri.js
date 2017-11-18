@@ -1,7 +1,9 @@
 var keys = require("./keys.js");
-var Twitter = require('twitter');
-var Spotify = require('node-spotify-api');
+var inquirer = require('inquirer')
+var twitter = require('twitter');
+var spotify = require('node-spotify-api');
 var request = require('request');
+
 //my-tweets last 20 tweets
 //spotify-this-song <song> Artist, Song's name, preview of link from song in spotify, album song is from, no song? ace of base the sign (node-spotify-api)
 // Client ID
